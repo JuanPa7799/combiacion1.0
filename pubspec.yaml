@@ -47,6 +47,15 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  cupertino_icons: ^1.0.2
+  generic_bloc_provider: ^2.0.0-nullsafety.1
+  firebase_auth: ^4.1.2
+  google_sign_in: ^5.1.0
+  firebase_storage: ^11.0.5
+  cloud_firestore:
+  firebase_core: ^2.2.0
+  image_picker: ^0.8.6
+  cached_network_image: ^3.2.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -89,3 +98,22 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  assets: 
+    - assets/img/people.jpg
+    - assets/img/ann.jpg
+    - assets/img/girl.jpg
+    - assets/img/beach.jpeg
+    - assets/img/beach_palm.jpeg
+    - assets/img/mountain_stars.jpeg
+    - assets/img/mountain.jpeg
+    - assets/img/sunset.jpeg
+    - assets/img/river.jpeg
+    - assets/img/creel.jpg
+    - assets/img/bacalar.jpg
+    - assets/img/san_cristobal_de_las_casas.jpg
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato-Regular.ttf
